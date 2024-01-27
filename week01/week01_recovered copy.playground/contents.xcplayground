@@ -5,5 +5,9 @@
         <page name='Day01 variables, simple data types, and string interpolation'/>
         <page name='Day02 arrays, dictionaries, sets, and enums'/>
         <page name='Day03 Operators and conditions'/>
+        <page name='Day04 Type annotations and checkpoint 2'/>
+        <page name='Day05 How to check a condition is true or false'/>
+        <page name='Day06 How to use a for loop to repeat work'/>
+        <page name='Day07 How to reuse code with functions '/>
     </pages>
 </playground>

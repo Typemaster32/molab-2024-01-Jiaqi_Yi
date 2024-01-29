@@ -113,3 +113,10 @@ print("Name: \(user.firstName) \(user.lastName)")
 print("Name: \(user.0) \(user.1)")
 //QUESTION: tuple with no name for elements?
 
+//how to go without Label? Use "_"
+func isUppercase(_ string: String) -> Bool {
+    string == string.uppercased()
+}
+
+let string = "HELLO, WORLD"
+let result3 = isUppercase(string)

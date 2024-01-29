@@ -20,6 +20,7 @@ if ourName > friendName { //This is true
 //That "" is an empty string: we start the string and end the string, with nothing in between.
 
 //MULTIPLE CONDITIONS:
+var temp = 40
 if temp > 20 && temp < 30 {
     print("It's a nice day.")
 }

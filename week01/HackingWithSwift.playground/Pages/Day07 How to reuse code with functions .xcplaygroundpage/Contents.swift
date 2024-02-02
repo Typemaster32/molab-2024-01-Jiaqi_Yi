@@ -120,3 +120,13 @@ func isUppercase(_ string: String) -> Bool {
 
 let string = "HELLO, WORLD"
 let result3 = isUppercase(string)
+
+//how to set two different tags? first is outer, second is inner.
+//outer-inner
+func printTimesTables2(outer inner: Int) {
+    for i in 1...12 {
+        print("\(i) x \(inner) is \(i * inner)")
+    }
+}
+
+printTimesTables2(outer: 5)

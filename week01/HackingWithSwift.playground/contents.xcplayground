@@ -18,5 +18,10 @@
         <page name='Day11 Structs, part two'/>
         <page name='Day11 Checkpoint 06'/>
         <page name='Day12 Classes'/>
+        <page name='Day12 Checkpoint 07'/>
+        <page name='Day13 Protocols'/>
+        <page name='Day13 Opacue return types'/>
+        <page name='Day13 Extensions'/>
+        <page name='Day13 Checkpoint 08'/>
     </pages>
 </playground>

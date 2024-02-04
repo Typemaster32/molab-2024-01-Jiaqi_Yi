@@ -23,7 +23,7 @@ greeting="""
 var testText = "This is the way the world ends Not with a bang but with a whimper"
 
 var number = 1_2344_44990
-
+print(type(of:number))
 var pi = 3.141
 
 var testBoolean=true
@@ -35,6 +35,13 @@ print(greeting)
 var score = 85
 var str = "Your score was \(score)"
 var results = "You have a new message:  \"\(str)\""
+//here:
+// "
+// You have a new message:
+// \"
+// \(str)
+// \"
+// "
 
 let str2: String = "Hello,playground!"
 

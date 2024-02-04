@@ -4,7 +4,7 @@ import Foundation
 
 //: [Next](@next)
 
-//This is an array
+//1. This is an array
 let john = "John Lennon"
 let paul = "Paul McCartney"
 let george = "George Harrison"
@@ -24,6 +24,8 @@ var results2 = [Int]()
 
 //This is a set
 let mySet: Set = [1, 2, 3, 4, 5]
+var mySet2 = Set<Int>()
+var mySet3: Set<Int> = []
 let randomElement = mySet.randomElement()
 
 //This is a set with TYPE ANNOTATION:

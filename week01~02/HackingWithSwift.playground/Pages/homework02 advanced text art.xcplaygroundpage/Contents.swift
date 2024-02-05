@@ -116,7 +116,7 @@ func generateMazeDFS(rows: Int, cols: Int) -> [[String]] {
         for (dx, dy) in directions {
             let nx = x + dx, ny = y + dy
             if nx >= 0 && nx < rows && ny >= 0 && ny < cols && !visited[nx][ny] {
-                maze[x*2+1+dx][y*2+1+dy] = "" // Knock down the wall
+                maze[x*2+1+dx][y*2+1+dy] = " " // Knock down the wall
                 dfs(x: nx, y: ny) // Recurse
             }
         }
@@ -129,11 +129,12 @@ func generateMazeDFS(rows: Int, cols: Int) -> [[String]] {
 func printMaze(_ maze: [[String]]) {
     for row in maze {
         for unit in row{
-            print(String(unit),terminator: " ")
+            print(String(unit),terminator: "")
         }
+        print("")
     }
 }
 
 // Example usage
-let maze = generateMazeDFS(rows: 6, cols: 10)
+let maze = generateMazeDFS(rows: 10, cols: 55)
 printMaze(maze)

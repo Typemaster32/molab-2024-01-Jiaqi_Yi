@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Face</title>
+    <style>
+        .container {
+            position: relative;
+        }
+
+        #myImage {
+            position: absolute;
+            top: 0;
+            /* Adjust these values as needed */
+            left: 0;
+            /* Adjust these values as needed */
+            width: 10%;
+            /* Scale as needed */
+            height: 10%;
+            /* Scale as needed */
+            transform: scaleX(-1);
+            /* To mirror the image */
+            z-index: 1;
+            /* To ensure the image goes behind the SVG */
+        }
+
+        svg {
+            position: relative;
+            /* Define width and height as needed */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="IMG_8361.jpg" alt="my actual face" id="myImage">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 184 347" style="enable-background:new 0 0 184 347;" xml:space="preserve">
+            <style type="text/css">
+                .st0 {
+                    fill: #D9D9D9;
+                    stroke: #943D2E;
+                    stroke-width: 8;
+                }
+
+                .st1 {
+                    fill: #D9D9D9;
+                }
+
+                .st2 {
+                    fill: #2A2A2A;
+                }
+
+                .st3 {
+                    fill: none;
+                    stroke: #000000;
+                    stroke-width: 5;
+                }
+            </style>
+            <path class="st0"
+                d="M96.8,238.8l35.7,10.6l14.8,25.5l-14.8,25.5l-35.7,10.6L61,300.3l-14.8-25.5L61,249.4L96.8,238.8z" />
+            <path d="M4.5,84.4C14.8,17.4,92.6,1,184,2.1v110.8L4.5,129.4C1.1,136.7-3.7,137.9,4.5,84.4z" />
+            <ellipse class="st1" cx="46.8" cy="166.2" rx="29.6" ry="5.9" />
+            <circle class="st2" cx="52.1" cy="166.2" r="5.9" />
+            <ellipse class="st1" cx="141.4" cy="166.2" rx="29.6" ry="5.9" />
+            <circle class="st2" cx="146.8" cy="166.2" r="5.9" />
+            <path d="M87.5,222.3c1.6,1.6,4.1,1.6,5.7,0l25.5-25.5c1.6-1.6,1.6-4.1,0-5.7c-1.6-1.6-4.1-1.6-5.7,0l-22.6,22.6l-22.6-22.6
+	c-1.6-1.6-4.1-1.6-5.7,0c-1.6,1.6-1.6,4.1,0,5.7L87.5,222.3z M86.3,195.8v23.7h8v-23.7H86.3z" />
+            <path class="st3"
+                d="M3.2,122.7C9.7,221.6,15,247.4,40.8,288.3s72.1,76.4,111.9,43c31.8-26.7,30.5-26.2,25.8-22.6" />
+            <path class="st3" d="M15,148c22-6,38-6,56,0 M175,148c-25-10-52,0-56,0" />
+        </svg>
+    </div>
+</body>
+
+</html>

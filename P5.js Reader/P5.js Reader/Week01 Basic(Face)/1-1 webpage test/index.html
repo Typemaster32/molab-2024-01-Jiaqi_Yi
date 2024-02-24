@@ -1,0 +1,45 @@
+<!-- Here's comment form -->
+<!DOCTYPE html><!--  A tag for browser to render as html 2 -->
+
+<HTML>
+
+<head>
+    <title>Hello! This is title.</title>
+    <script type="text/javascript">
+        let hello;
+        window.addEventListener('load', init)
+        //it is like mousePressed in p5js.
+        function init(){
+            hello = document.getElementById('hello')
+            hello.addEventListener('mouseover',overHello)
+        }
+
+        function overHello(){
+            hello.innerHTML="goodbye"
+        //innerHTML gets what is in the HTML, including tags.
+        }
+    </script>
+    <!--script here means adding JS.
+        partA: listen for the load evevts!(addEventListener)
+        partB: getElementById -->
+    <style>
+        /* body {
+            text-align: center
+        } */
+        #hello {
+            text-align: center
+        }
+
+        .afunclass {
+            background-color: pink;
+        }
+    </style><!-- this is so different!  It's going to align everything. Can be put everywhere-->
+</head><!-- Can't put body in head-->
+
+<body>
+    <h1 id="hello" class="afunclass">Hello!</h1>
+    <i>bbbbbb</i>
+    <div id="blahtest" style="font-size: 35px">blah blah</div>
+</body>
+
+</HTML>

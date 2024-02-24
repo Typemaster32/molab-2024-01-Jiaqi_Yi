@@ -11,10 +11,10 @@ struct ContentView: View {
     ]
     
     var body: some View {
-        let _ = Self._printChanges()
+//        let _ = Self._printChanges()
         NavigationView {
             List(pages, id: \.0) { page in
-                NavigationLink(destination: P5jsView(url: URL(string: page.1)!)) {
+                NavigationLink(destination: CenteredWebView(url: URL(string: page.1)!)) {
                     Text(page.0)
                 }
             }
@@ -25,3 +25,5 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
+//p5 web editor api
+//cordova (web pages)

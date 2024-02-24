@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3539F48FBA2BCA6E0BF8499B /* Pods_P5_js_Viewer_0_01Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEA4978C6C605FD0A8408F66 /* Pods_P5_js_Viewer_0_01Tests.framework */; };
+		B20AEBBA2B7DA6410027BB94 /* P5_js_Viewer_0_01App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEBB92B7DA6410027BB94 /* P5_js_Viewer_0_01App.swift */; };
+		B20AEBBC2B7DA6410027BB94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEBBB2B7DA6410027BB94 /* ContentView.swift */; };
+		B20AEBBE2B7DA6430027BB94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20AEBBD2B7DA6430027BB94 /* Assets.xcassets */; };
+		B20AEBC12B7DA6430027BB94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20AEBC02B7DA6430027BB94 /* Preview Assets.xcassets */; };
+		B20AEBCB2B7DA6430027BB94 /* P5_js_Viewer_0_01Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEBCA2B7DA6430027BB94 /* P5_js_Viewer_0_01Tests.swift */; };
+		B20AEBD52B7DA6430027BB94 /* P5_js_Viewer_0_01UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEBD42B7DA6430027BB94 /* P5_js_Viewer_0_01UITests.swift */; };
+		B20AEBD72B7DA6430027BB94 /* P5_js_Viewer_0_01UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEBD62B7DA6430027BB94 /* P5_js_Viewer_0_01UITestsLaunchTests.swift */; };
+		B20AEC2D2B7F17E40027BB94 /* ViewSketch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEC2C2B7F17E40027BB94 /* ViewSketch.swift */; };
+		B20AEC332B8009830027BB94 /* Sketches in Resources */ = {isa = PBXBuildFile; fileRef = B20AEC322B8009830027BB94 /* Sketches */; };
+		B20AEC342B8009830027BB94 /* Sketches in Resources */ = {isa = PBXBuildFile; fileRef = B20AEC322B8009830027BB94 /* Sketches */; };
+		B20AEC352B8009830027BB94 /* Sketches in Resources */ = {isa = PBXBuildFile; fileRef = B20AEC322B8009830027BB94 /* Sketches */; };
+		B20AEC372B801E7C0027BB94 /* ZipContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEC362B801E7C0027BB94 /* ZipContentView.swift */; };
+		B20AEC382B801E7C0027BB94 /* ZipContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEC362B801E7C0027BB94 /* ZipContentView.swift */; };
+		B20AEC392B801E7C0027BB94 /* ZipContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEC362B801E7C0027BB94 /* ZipContentView.swift */; };
+		B25038022B82B417004CA2A6 /* GCDWebServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B25038012B82B417004CA2A6 /* GCDWebServer.framework */; };
+		B25038042B82B424004CA2A6 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = B25038032B82B424004CA2A6 /* ZIPFoundation */; };
+		D8F13C7908A478D074A52B26 /* Pods_P5_js_Viewer_0_01_P5_js_Viewer_0_01UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8FCBD7C250EAE40DE2D1913 /* Pods_P5_js_Viewer_0_01_P5_js_Viewer_0_01UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B20AEBC72B7DA6430027BB94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20AEBAE2B7DA6410027BB94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20AEBB52B7DA6410027BB94;
+			remoteInfo = "P5.js Viewer 0.01";
+		};
+		B20AEBD12B7DA6430027BB94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20AEBAE2B7DA6410027BB94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20AEBB52B7DA6410027BB94;
+			remoteInfo = "P5.js Viewer 0.01";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A439B663B0693DB156883B /* Pods-P5.js Viewer 0.01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P5.js Viewer 0.01.release.xcconfig"; path = "Target Support Files/Pods-P5.js Viewer 0.01/Pods-P5.js Viewer 0.01.release.xcconfig"; sourceTree = "<group>"; };
+		062EB40ABD139927B1F581F1 /* Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests.release.xcconfig"; path = "Target Support Files/Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests/Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests.release.xcconfig"; sourceTree = "<group>"; };
+		14C73124996DE5757D9C6FA6 /* Pods_P5_js_Viewer_0_01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_P5_js_Viewer_0_01.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6339E8E18F32AD73894F7BC4 /* Pods-P5.js Viewer 0.01Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P5.js Viewer 0.01Tests.release.xcconfig"; path = "Target Support Files/Pods-P5.js Viewer 0.01Tests/Pods-P5.js Viewer 0.01Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6CE13A6E0D6ABA53451EAAF9 /* Pods-P5.js Viewer 0.01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P5.js Viewer 0.01.debug.xcconfig"; path = "Target Support Files/Pods-P5.js Viewer 0.01/Pods-P5.js Viewer 0.01.debug.xcconfig"; sourceTree = "<group>"; };
+		94E7CD5E8F32D5E08A7CA602 /* Pods-P5.js Viewer 0.01Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P5.js Viewer 0.01Tests.debug.xcconfig"; path = "Target Support Files/Pods-P5.js Viewer 0.01Tests/Pods-P5.js Viewer 0.01Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFCB012B4199DCD7DB0F3DCA /* Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests.debug.xcconfig"; path = "Target Support Files/Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests/Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B20AEBB62B7DA6410027BB94 /* P5.js Viewer 0.01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P5.js Viewer 0.01.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20AEBB92B7DA6410027BB94 /* P5_js_Viewer_0_01App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5_js_Viewer_0_01App.swift; sourceTree = "<group>"; };
+		B20AEBBB2B7DA6410027BB94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B20AEBBD2B7DA6430027BB94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20AEBC02B7DA6430027BB94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B20AEBC62B7DA6430027BB94 /* P5.js Viewer 0.01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P5.js Viewer 0.01Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20AEBCA2B7DA6430027BB94 /* P5_js_Viewer_0_01Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5_js_Viewer_0_01Tests.swift; sourceTree = "<group>"; };
+		B20AEBD02B7DA6430027BB94 /* P5.js Viewer 0.01UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P5.js Viewer 0.01UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20AEBD42B7DA6430027BB94 /* P5_js_Viewer_0_01UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5_js_Viewer_0_01UITests.swift; sourceTree = "<group>"; };
+		B20AEBD62B7DA6430027BB94 /* P5_js_Viewer_0_01UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5_js_Viewer_0_01UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B20AEC2C2B7F17E40027BB94 /* ViewSketch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSketch.swift; sourceTree = "<group>"; };
+		B20AEC322B8009830027BB94 /* Sketches */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sketches; sourceTree = "<group>"; };
+		B20AEC362B801E7C0027BB94 /* ZipContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipContentView.swift; sourceTree = "<group>"; };
+		B25038012B82B417004CA2A6 /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27856F32B82B1DA00549A5B /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8FCBD7C250EAE40DE2D1913 /* Pods_P5_js_Viewer_0_01_P5_js_Viewer_0_01UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_P5_js_Viewer_0_01_P5_js_Viewer_0_01UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA4978C6C605FD0A8408F66 /* Pods_P5_js_Viewer_0_01Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_P5_js_Viewer_0_01Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20AEBB32B7DA6410027BB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B25038022B82B417004CA2A6 /* GCDWebServer.framework in Frameworks */,
+				B25038042B82B424004CA2A6 /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20AEBC32B7DA6430027BB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3539F48FBA2BCA6E0BF8499B /* Pods_P5_js_Viewer_0_01Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20AEBCD2B7DA6430027BB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F13C7908A478D074A52B26 /* Pods_P5_js_Viewer_0_01_P5_js_Viewer_0_01UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A46533D1802EA2ACE6F6AF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B25038012B82B417004CA2A6 /* GCDWebServer.framework */,
+				B27856F32B82B1DA00549A5B /* GCDWebServer.framework */,
+				14C73124996DE5757D9C6FA6 /* Pods_P5_js_Viewer_0_01.framework */,
+				E8FCBD7C250EAE40DE2D1913 /* Pods_P5_js_Viewer_0_01_P5_js_Viewer_0_01UITests.framework */,
+				EEA4978C6C605FD0A8408F66 /* Pods_P5_js_Viewer_0_01Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		373BDD8A87D3A9825DD30407 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CE13A6E0D6ABA53451EAAF9 /* Pods-P5.js Viewer 0.01.debug.xcconfig */,
+				05A439B663B0693DB156883B /* Pods-P5.js Viewer 0.01.release.xcconfig */,
+				AFCB012B4199DCD7DB0F3DCA /* Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests.debug.xcconfig */,
+				062EB40ABD139927B1F581F1 /* Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests.release.xcconfig */,
+				94E7CD5E8F32D5E08A7CA602 /* Pods-P5.js Viewer 0.01Tests.debug.xcconfig */,
+				6339E8E18F32AD73894F7BC4 /* Pods-P5.js Viewer 0.01Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B20AEBAD2B7DA6410027BB94 = {
+			isa = PBXGroup;
+			children = (
+				B20AEBB82B7DA6410027BB94 /* P5.js Viewer 0.01 */,
+				B20AEBC92B7DA6430027BB94 /* P5.js Viewer 0.01Tests */,
+				B20AEBD32B7DA6430027BB94 /* P5.js Viewer 0.01UITests */,
+				B20AEBB72B7DA6410027BB94 /* Products */,
+				373BDD8A87D3A9825DD30407 /* Pods */,
+				1A46533D1802EA2ACE6F6AF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B20AEBB72B7DA6410027BB94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20AEBB62B7DA6410027BB94 /* P5.js Viewer 0.01.app */,
+				B20AEBC62B7DA6430027BB94 /* P5.js Viewer 0.01Tests.xctest */,
+				B20AEBD02B7DA6430027BB94 /* P5.js Viewer 0.01UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20AEBB82B7DA6410027BB94 /* P5.js Viewer 0.01 */ = {
+			isa = PBXGroup;
+			children = (
+				B20AEC322B8009830027BB94 /* Sketches */,
+				B20AEBB92B7DA6410027BB94 /* P5_js_Viewer_0_01App.swift */,
+				B20AEBBB2B7DA6410027BB94 /* ContentView.swift */,
+				B20AEC2C2B7F17E40027BB94 /* ViewSketch.swift */,
+				B20AEC362B801E7C0027BB94 /* ZipContentView.swift */,
+				B20AEBBD2B7DA6430027BB94 /* Assets.xcassets */,
+				B20AEBBF2B7DA6430027BB94 /* Preview Content */,
+			);
+			path = "P5.js Viewer 0.01";
+			sourceTree = "<group>";
+		};
+		B20AEBBF2B7DA6430027BB94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B20AEBC02B7DA6430027BB94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B20AEBC92B7DA6430027BB94 /* P5.js Viewer 0.01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B20AEBCA2B7DA6430027BB94 /* P5_js_Viewer_0_01Tests.swift */,
+			);
+			path = "P5.js Viewer 0.01Tests";
+			sourceTree = "<group>";
+		};
+		B20AEBD32B7DA6430027BB94 /* P5.js Viewer 0.01UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B20AEBD42B7DA6430027BB94 /* P5_js_Viewer_0_01UITests.swift */,
+				B20AEBD62B7DA6430027BB94 /* P5_js_Viewer_0_01UITestsLaunchTests.swift */,
+			);
+			path = "P5.js Viewer 0.01UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20AEBB52B7DA6410027BB94 /* P5.js Viewer 0.01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20AEBDA2B7DA6430027BB94 /* Build configuration list for PBXNativeTarget "P5.js Viewer 0.01" */;
+			buildPhases = (
+				0523725C07E05CABFF07D07B /* [CP] Check Pods Manifest.lock */,
+				B20AEBB22B7DA6410027BB94 /* Sources */,
+				B20AEBB32B7DA6410027BB94 /* Frameworks */,
+				B20AEBB42B7DA6410027BB94 /* Resources */,
+				FF4A618AEE9270F14B48E5E2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "P5.js Viewer 0.01";
+			packageProductDependencies = (
+				B25038032B82B424004CA2A6 /* ZIPFoundation */,
+			);
+			productName = "P5.js Viewer 0.01";
+			productReference = B20AEBB62B7DA6410027BB94 /* P5.js Viewer 0.01.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B20AEBC52B7DA6430027BB94 /* P5.js Viewer 0.01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20AEBDD2B7DA6430027BB94 /* Build configuration list for PBXNativeTarget "P5.js Viewer 0.01Tests" */;
+			buildPhases = (
+				B09AB7D02D1B39A21E6FF03F /* [CP] Check Pods Manifest.lock */,
+				B20AEBC22B7DA6430027BB94 /* Sources */,
+				B20AEBC32B7DA6430027BB94 /* Frameworks */,
+				B20AEBC42B7DA6430027BB94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20AEBC82B7DA6430027BB94 /* PBXTargetDependency */,
+			);
+			name = "P5.js Viewer 0.01Tests";
+			productName = "P5.js Viewer 0.01Tests";
+			productReference = B20AEBC62B7DA6430027BB94 /* P5.js Viewer 0.01Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B20AEBCF2B7DA6430027BB94 /* P5.js Viewer 0.01UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20AEBE02B7DA6430027BB94 /* Build configuration list for PBXNativeTarget "P5.js Viewer 0.01UITests" */;
+			buildPhases = (
+				15091446870079CC55397D8D /* [CP] Check Pods Manifest.lock */,
+				B20AEBCC2B7DA6430027BB94 /* Sources */,
+				B20AEBCD2B7DA6430027BB94 /* Frameworks */,
+				B20AEBCE2B7DA6430027BB94 /* Resources */,
+				A4A99CA2B0D4612C2AC91B68 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20AEBD22B7DA6430027BB94 /* PBXTargetDependency */,
+			);
+			name = "P5.js Viewer 0.01UITests";
+			productName = "P5.js Viewer 0.01UITests";
+			productReference = B20AEBD02B7DA6430027BB94 /* P5.js Viewer 0.01UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20AEBAE2B7DA6410027BB94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B20AEBB52B7DA6410027BB94 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B20AEBC52B7DA6430027BB94 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B20AEBB52B7DA6410027BB94;
+					};
+					B20AEBCF2B7DA6430027BB94 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B20AEBB52B7DA6410027BB94;
+					};
+				};
+			};
+			buildConfigurationList = B20AEBB12B7DA6410027BB94 /* Build configuration list for PBXProject "P5.js Viewer 0.01" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20AEBAD2B7DA6410027BB94;
+			packageReferences = (
+				B20AEBE72B7DBF380027BB94 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
+			productRefGroup = B20AEBB72B7DA6410027BB94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20AEBB52B7DA6410027BB94 /* P5.js Viewer 0.01 */,
+				B20AEBC52B7DA6430027BB94 /* P5.js Viewer 0.01Tests */,
+				B20AEBCF2B7DA6430027BB94 /* P5.js Viewer 0.01UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20AEBB42B7DA6410027BB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20AEBC12B7DA6430027BB94 /* Preview Assets.xcassets in Resources */,
+				B20AEC332B8009830027BB94 /* Sketches in Resources */,
+				B20AEBBE2B7DA6430027BB94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20AEBC42B7DA6430027BB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20AEC342B8009830027BB94 /* Sketches in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20AEBCE2B7DA6430027BB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20AEC352B8009830027BB94 /* Sketches in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0523725C07E05CABFF07D07B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-P5.js Viewer 0.01-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15091446870079CC55397D8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4A99CA2B0D4612C2AC91B68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests/Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests/Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests/Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B09AB7D02D1B39A21E6FF03F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-P5.js Viewer 0.01Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF4A618AEE9270F14B48E5E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P5.js Viewer 0.01/Pods-P5.js Viewer 0.01-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-P5.js Viewer 0.01/Pods-P5.js Viewer 0.01-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-P5.js Viewer 0.01/Pods-P5.js Viewer 0.01-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20AEBB22B7DA6410027BB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20AEC372B801E7C0027BB94 /* ZipContentView.swift in Sources */,
+				B20AEC2D2B7F17E40027BB94 /* ViewSketch.swift in Sources */,
+				B20AEBBC2B7DA6410027BB94 /* ContentView.swift in Sources */,
+				B20AEBBA2B7DA6410027BB94 /* P5_js_Viewer_0_01App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20AEBC22B7DA6430027BB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20AEC382B801E7C0027BB94 /* ZipContentView.swift in Sources */,
+				B20AEBCB2B7DA6430027BB94 /* P5_js_Viewer_0_01Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20AEBCC2B7DA6430027BB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20AEBD72B7DA6430027BB94 /* P5_js_Viewer_0_01UITestsLaunchTests.swift in Sources */,
+				B20AEC392B801E7C0027BB94 /* ZipContentView.swift in Sources */,
+				B20AEBD52B7DA6430027BB94 /* P5_js_Viewer_0_01UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20AEBC82B7DA6430027BB94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20AEBB52B7DA6410027BB94 /* P5.js Viewer 0.01 */;
+			targetProxy = B20AEBC72B7DA6430027BB94 /* PBXContainerItemProxy */;
+		};
+		B20AEBD22B7DA6430027BB94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20AEBB52B7DA6410027BB94 /* P5.js Viewer 0.01 */;
+			targetProxy = B20AEBD12B7DA6430027BB94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B20AEBD82B7DA6430027BB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B20AEBD92B7DA6430027BB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20AEBDB2B7DA6430027BB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE13A6E0D6ABA53451EAAF9 /* Pods-P5.js Viewer 0.01.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"P5.js Viewer 0.01/Preview Content\"";
+				DEVELOPMENT_TEAM = 4U7WY8BUM4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yijiaqi.P5-js-Viewer-0-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20AEBDC2B7DA6430027BB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A439B663B0693DB156883B /* Pods-P5.js Viewer 0.01.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"P5.js Viewer 0.01/Preview Content\"";
+				DEVELOPMENT_TEAM = 4U7WY8BUM4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yijiaqi.P5-js-Viewer-0-01";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B20AEBDE2B7DA6430027BB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94E7CD5E8F32D5E08A7CA602 /* Pods-P5.js Viewer 0.01Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U7WY8BUM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yijiaqi.P5-js-Viewer-0-01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P5.js Viewer 0.01.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/P5.js Viewer 0.01";
+			};
+			name = Debug;
+		};
+		B20AEBDF2B7DA6430027BB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6339E8E18F32AD73894F7BC4 /* Pods-P5.js Viewer 0.01Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U7WY8BUM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yijiaqi.P5-js-Viewer-0-01Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P5.js Viewer 0.01.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/P5.js Viewer 0.01";
+			};
+			name = Release;
+		};
+		B20AEBE12B7DA6430027BB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFCB012B4199DCD7DB0F3DCA /* Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U7WY8BUM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yijiaqi.P5-js-Viewer-0-01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "P5.js Viewer 0.01";
+			};
+			name = Debug;
+		};
+		B20AEBE22B7DA6430027BB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 062EB40ABD139927B1F581F1 /* Pods-P5.js Viewer 0.01-P5.js Viewer 0.01UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U7WY8BUM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yijiaqi.P5-js-Viewer-0-01UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "P5.js Viewer 0.01";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20AEBB12B7DA6410027BB94 /* Build configuration list for PBXProject "P5.js Viewer 0.01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20AEBD82B7DA6430027BB94 /* Debug */,
+				B20AEBD92B7DA6430027BB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20AEBDA2B7DA6430027BB94 /* Build configuration list for PBXNativeTarget "P5.js Viewer 0.01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20AEBDB2B7DA6430027BB94 /* Debug */,
+				B20AEBDC2B7DA6430027BB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20AEBDD2B7DA6430027BB94 /* Build configuration list for PBXNativeTarget "P5.js Viewer 0.01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20AEBDE2B7DA6430027BB94 /* Debug */,
+				B20AEBDF2B7DA6430027BB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20AEBE02B7DA6430027BB94 /* Build configuration list for PBXNativeTarget "P5.js Viewer 0.01UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20AEBE12B7DA6430027BB94 /* Debug */,
+				B20AEBE22B7DA6430027BB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B20AEBE72B7DBF380027BB94 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.18;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B25038032B82B424004CA2A6 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B20AEBE72B7DBF380027BB94 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B20AEBAE2B7DA6410027BB94 /* Project object */;
+}

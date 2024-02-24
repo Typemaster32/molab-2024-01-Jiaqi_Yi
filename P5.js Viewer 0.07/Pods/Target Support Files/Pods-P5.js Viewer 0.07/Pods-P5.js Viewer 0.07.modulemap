@@ -1,0 +1,6 @@
+framework module Pods_P5_js_Viewer_0_07 {
+  umbrella header "Pods-P5.js Viewer 0.07-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B20AEB802B78279F0027BB94 /* P5_js_ReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEB7F2B78279F0027BB94 /* P5_js_ReaderApp.swift */; };
+		B20AEB822B78279F0027BB94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEB812B78279F0027BB94 /* ContentView.swift */; };
+		B20AEB842B7827A10027BB94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20AEB832B7827A10027BB94 /* Assets.xcassets */; };
+		B20AEB872B7827A10027BB94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20AEB862B7827A10027BB94 /* Preview Assets.xcassets */; };
+		B20AEB912B7827A10027BB94 /* P5_js_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEB902B7827A10027BB94 /* P5_js_ReaderTests.swift */; };
+		B20AEB9B2B7827A10027BB94 /* P5_js_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEB9A2B7827A10027BB94 /* P5_js_ReaderUITests.swift */; };
+		B20AEB9D2B7827A10027BB94 /* P5_js_ReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEB9C2B7827A10027BB94 /* P5_js_ReaderUITestsLaunchTests.swift */; };
+		B20AEBAC2B782C0B0027BB94 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEBAB2B782C0B0027BB94 /* WebView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B20AEB8D2B7827A10027BB94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20AEB742B78279F0027BB94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20AEB7B2B78279F0027BB94;
+			remoteInfo = "P5.js Reader";
+		};
+		B20AEB972B7827A10027BB94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20AEB742B78279F0027BB94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20AEB7B2B78279F0027BB94;
+			remoteInfo = "P5.js Reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B20AEB7C2B78279F0027BB94 /* P5.js Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "P5.js Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20AEB7F2B78279F0027BB94 /* P5_js_ReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5_js_ReaderApp.swift; sourceTree = "<group>"; };
+		B20AEB812B78279F0027BB94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B20AEB832B7827A10027BB94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20AEB862B7827A10027BB94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B20AEB8C2B7827A10027BB94 /* P5.js ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P5.js ReaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20AEB902B7827A10027BB94 /* P5_js_ReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5_js_ReaderTests.swift; sourceTree = "<group>"; };
+		B20AEB962B7827A10027BB94 /* P5.js ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "P5.js ReaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20AEB9A2B7827A10027BB94 /* P5_js_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5_js_ReaderUITests.swift; sourceTree = "<group>"; };
+		B20AEB9C2B7827A10027BB94 /* P5_js_ReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5_js_ReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B20AEBAB2B782C0B0027BB94 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20AEB792B78279F0027BB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20AEB892B7827A10027BB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20AEB932B7827A10027BB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20AEB732B78279F0027BB94 = {
+			isa = PBXGroup;
+			children = (
+				B20AEB7E2B78279F0027BB94 /* P5.js Reader */,
+				B20AEB8F2B7827A10027BB94 /* P5.js ReaderTests */,
+				B20AEB992B7827A10027BB94 /* P5.js ReaderUITests */,
+				B20AEB7D2B78279F0027BB94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B20AEB7D2B78279F0027BB94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20AEB7C2B78279F0027BB94 /* P5.js Reader.app */,
+				B20AEB8C2B7827A10027BB94 /* P5.js ReaderTests.xctest */,
+				B20AEB962B7827A10027BB94 /* P5.js ReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B20AEB7E2B78279F0027BB94 /* P5.js Reader */ = {
+			isa = PBXGroup;
+			children = (
+				B20AEB7F2B78279F0027BB94 /* P5_js_ReaderApp.swift */,
+				B20AEB812B78279F0027BB94 /* ContentView.swift */,
+				B20AEBAB2B782C0B0027BB94 /* WebView.swift */,
+				B20AEB832B7827A10027BB94 /* Assets.xcassets */,
+				B20AEB852B7827A10027BB94 /* Preview Content */,
+			);
+			path = "P5.js Reader";
+			sourceTree = "<group>";
+		};
+		B20AEB852B7827A10027BB94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B20AEB862B7827A10027BB94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B20AEB8F2B7827A10027BB94 /* P5.js ReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B20AEB902B7827A10027BB94 /* P5_js_ReaderTests.swift */,
+			);
+			path = "P5.js ReaderTests";
+			sourceTree = "<group>";
+		};
+		B20AEB992B7827A10027BB94 /* P5.js ReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B20AEB9A2B7827A10027BB94 /* P5_js_ReaderUITests.swift */,
+				B20AEB9C2B7827A10027BB94 /* P5_js_ReaderUITestsLaunchTests.swift */,
+			);
+			path = "P5.js ReaderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20AEB7B2B78279F0027BB94 /* P5.js Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20AEBA02B7827A10027BB94 /* Build configuration list for PBXNativeTarget "P5.js Reader" */;
+			buildPhases = (
+				B20AEB782B78279F0027BB94 /* Sources */,
+				B20AEB792B78279F0027BB94 /* Frameworks */,
+				B20AEB7A2B78279F0027BB94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "P5.js Reader";
+			productName = "P5.js Reader";
+			productReference = B20AEB7C2B78279F0027BB94 /* P5.js Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B20AEB8B2B7827A10027BB94 /* P5.js ReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20AEBA32B7827A10027BB94 /* Build configuration list for PBXNativeTarget "P5.js ReaderTests" */;
+			buildPhases = (
+				B20AEB882B7827A10027BB94 /* Sources */,
+				B20AEB892B7827A10027BB94 /* Frameworks */,
+				B20AEB8A2B7827A10027BB94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20AEB8E2B7827A10027BB94 /* PBXTargetDependency */,
+			);
+			name = "P5.js ReaderTests";
+			productName = "P5.js ReaderTests";
+			productReference = B20AEB8C2B7827A10027BB94 /* P5.js ReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B20AEB952B7827A10027BB94 /* P5.js ReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20AEBA62B7827A10027BB94 /* Build configuration list for PBXNativeTarget "P5.js ReaderUITests" */;
+			buildPhases = (
+				B20AEB922B7827A10027BB94 /* Sources */,
+				B20AEB932B7827A10027BB94 /* Frameworks */,
+				B20AEB942B7827A10027BB94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20AEB982B7827A10027BB94 /* PBXTargetDependency */,
+			);
+			name = "P5.js ReaderUITests";
+			productName = "P5.js ReaderUITests";
+			productReference = B20AEB962B7827A10027BB94 /* P5.js ReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20AEB742B78279F0027BB94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B20AEB7B2B78279F0027BB94 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B20AEB8B2B7827A10027BB94 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B20AEB7B2B78279F0027BB94;
+					};
+					B20AEB952B7827A10027BB94 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B20AEB7B2B78279F0027BB94;
+					};
+				};
+			};
+			buildConfigurationList = B20AEB772B78279F0027BB94 /* Build configuration list for PBXProject "P5.js Reader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20AEB732B78279F0027BB94;
+			productRefGroup = B20AEB7D2B78279F0027BB94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20AEB7B2B78279F0027BB94 /* P5.js Reader */,
+				B20AEB8B2B7827A10027BB94 /* P5.js ReaderTests */,
+				B20AEB952B7827A10027BB94 /* P5.js ReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20AEB7A2B78279F0027BB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20AEB872B7827A10027BB94 /* Preview Assets.xcassets in Resources */,
+				B20AEB842B7827A10027BB94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20AEB8A2B7827A10027BB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20AEB942B7827A10027BB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20AEB782B78279F0027BB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20AEB822B78279F0027BB94 /* ContentView.swift in Sources */,
+				B20AEBAC2B782C0B0027BB94 /* WebView.swift in Sources */,
+				B20AEB802B78279F0027BB94 /* P5_js_ReaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20AEB882B7827A10027BB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20AEB912B7827A10027BB94 /* P5_js_ReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20AEB922B7827A10027BB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20AEB9B2B7827A10027BB94 /* P5_js_ReaderUITests.swift in Sources */,
+				B20AEB9D2B7827A10027BB94 /* P5_js_ReaderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20AEB8E2B7827A10027BB94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20AEB7B2B78279F0027BB94 /* P5.js Reader */;
+			targetProxy = B20AEB8D2B7827A10027BB94 /* PBXContainerItemProxy */;
+		};
+		B20AEB982B7827A10027BB94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20AEB7B2B78279F0027BB94 /* P5.js Reader */;
+			targetProxy = B20AEB972B7827A10027BB94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B20AEB9E2B7827A10027BB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B20AEB9F2B7827A10027BB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20AEBA12B7827A10027BB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"P5.js Reader/Preview Content\"";
+				DEVELOPMENT_TEAM = 4U7WY8BUM4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yijiaqi.P5-js-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20AEBA22B7827A10027BB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"P5.js Reader/Preview Content\"";
+				DEVELOPMENT_TEAM = 4U7WY8BUM4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yijiaqi.P5-js-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B20AEBA42B7827A10027BB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U7WY8BUM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yijiaqi.P5-js-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P5.js Reader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/P5.js Reader";
+			};
+			name = Debug;
+		};
+		B20AEBA52B7827A10027BB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U7WY8BUM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yijiaqi.P5-js-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P5.js Reader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/P5.js Reader";
+			};
+			name = Release;
+		};
+		B20AEBA72B7827A10027BB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U7WY8BUM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yijiaqi.P5-js-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "P5.js Reader";
+			};
+			name = Debug;
+		};
+		B20AEBA82B7827A10027BB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4U7WY8BUM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yijiaqi.P5-js-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "P5.js Reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20AEB772B78279F0027BB94 /* Build configuration list for PBXProject "P5.js Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20AEB9E2B7827A10027BB94 /* Debug */,
+				B20AEB9F2B7827A10027BB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20AEBA02B7827A10027BB94 /* Build configuration list for PBXNativeTarget "P5.js Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20AEBA12B7827A10027BB94 /* Debug */,
+				B20AEBA22B7827A10027BB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20AEBA32B7827A10027BB94 /* Build configuration list for PBXNativeTarget "P5.js ReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20AEBA42B7827A10027BB94 /* Debug */,
+				B20AEBA52B7827A10027BB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20AEBA62B7827A10027BB94 /* Build configuration list for PBXNativeTarget "P5.js ReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20AEBA72B7827A10027BB94 /* Debug */,
+				B20AEBA82B7827A10027BB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20AEB742B78279F0027BB94 /* Project object */;
+}

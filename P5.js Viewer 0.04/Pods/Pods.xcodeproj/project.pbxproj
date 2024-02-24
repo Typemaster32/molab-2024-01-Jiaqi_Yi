@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06EF2F927ABC1480EDFCE29F57302BF2 /* Swifter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40882AC60EC5F8768EF1BEFAEA3C8474 /* Swifter-dummy.m */; };
+		07117F862C579033FF3AA3988D2FE435 /* HttpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BA231237EFBF8212AA434BE9474B07 /* HttpParser.swift */; };
+		0CE01F02DC6B9B2B646C16F8EA1840E6 /* MimeTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A852EB416F3BBDB96A265743CA65F9C /* MimeTypes.swift */; };
+		195282D5E704A666759DD280C82B1719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		45AF00A58D16A9BB670F1A48997496F8 /* WebSockets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CA946AACD2CFBA60A2F7CC418441AD /* WebSockets.swift */; };
+		4D97DE67D65A452A3454F9B8E69B8938 /* HttpServerIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B644D38F1F85757ABF3F80E28BAD3C33 /* HttpServerIO.swift */; };
+		5FE93355C27BED698ABE35303ADB070E /* String+BASE64.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAF88C49DED2E6DE37DBC74C8F26BE4 /* String+BASE64.swift */; };
+		61A2186525945138E6D4D8890BCD84CB /* Errno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8095640F80114C52EB1A93C4E55F9A22 /* Errno.swift */; };
+		6B82962C222D743936649220DFF3992B /* String+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4560888EC7E3F933FD18A16AF2F08FAF /* String+File.swift */; };
+		6CF3A0803ECC057069BB12FA82ACF49E /* String+SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1144581725D5439CC299FBA9F533AA71 /* String+SHA1.swift */; };
+		76089BA68ABE01FD29162689C36F48E3 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B77AEBC59CCAAEE0FD1D836DCAECF8 /* HttpRequest.swift */; };
+		77227FE12688B63A0DC4E0DE7531D23E /* Socket+Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575B9D1842C00084F1B274D58FA606C /* Socket+Server.swift */; };
+		7A7C6F02DA2ED39099C5872418880014 /* HttpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6451A97E9AB012ABEED52DED558977F /* HttpServer.swift */; };
+		7F774D05FB13ACDF7A2FD859BDF9EDAF /* Swifter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61BB9238F5B5377D7DEE5349F3988122 /* Swifter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8608A2666CDEF4D9F6ABBBDC3E5715AE /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E3669AB40EE4D274A4FC9F286E42CA /* Socket.swift */; };
+		86208836BC7379BB3467451B99D5DBC5 /* DemoServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AB08CC344FEECFCA17E8B720F18D82 /* DemoServer.swift */; };
+		9BF5E345E9EAD09BEE6F866A038C6766 /* Pods-P5.js Viewer 0.03-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F8AEB93E5A7FC79DACC132CA1340FC /* Pods-P5.js Viewer 0.03-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FE71C867DFE9D1F0517E5F9DA2A0563 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85023C3235203E280F487E422D75A318 /* Files.swift */; };
+		AC06B51F98101A4ABBCB811EAD8810A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C8E0C73A9EC57AE2AA623786819AAE32 /* Scopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A832C2FBFFB99104EBC8AE08FE990D /* Scopes.swift */; };
+		D1D3F7917DB58D01BAD971DA6AA7FA7F /* Pods-P5.js Viewer 0.03-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD369D8FBA318A4C4C673D3887CE1B14 /* Pods-P5.js Viewer 0.03-dummy.m */; };
+		D6AF937D3F2E6CFB72718EAC28C07470 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4EFA714A6675456D721C28442223D4 /* HttpResponse.swift */; };
+		E08536F9E7944703D5E72FAEA617F9FC /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB931B2FB53DCD1655351618882127B /* Process.swift */; };
+		EFCBCBD1585B046538884B88351202C7 /* HttpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6B8C698199F773500AEE76EF2EBBD2 /* HttpRouter.swift */; };
+		F206DA5B70F0EDC563A06E330B1FBD32 /* Socket+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460E4532601B0606381BD157CCBDE830 /* Socket+File.swift */; };
+		F9A30F9A5BCE22D6CB69957C8E68589D /* String+Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2007ABE4980A21BFFF0B7DBBD16867A3 /* String+Misc.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF18D6B9FE7649F894C82C21108E1EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA65059E808391E31616CB3E015A6B24;
+			remoteInfo = Swifter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1144581725D5439CC299FBA9F533AA71 /* String+SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+SHA1.swift"; path = "Xcode/Sources/String+SHA1.swift"; sourceTree = "<group>"; };
+		2007ABE4980A21BFFF0B7DBBD16867A3 /* String+Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Misc.swift"; path = "Xcode/Sources/String+Misc.swift"; sourceTree = "<group>"; };
+		2A852EB416F3BBDB96A265743CA65F9C /* MimeTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MimeTypes.swift; path = Xcode/Sources/MimeTypes.swift; sourceTree = "<group>"; };
+		35FBA7CC5D9E06C43C64FC557EAD4472 /* Pods-P5.js Viewer 0.03.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-P5.js Viewer 0.03.release.xcconfig"; sourceTree = "<group>"; };
+		3CC66117C82648AF15A2BA2C057C9413 /* Pods-P5.js Viewer 0.03-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-P5.js Viewer 0.03-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40882AC60EC5F8768EF1BEFAEA3C8474 /* Swifter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swifter-dummy.m"; sourceTree = "<group>"; };
+		409F7888BD538FF0F474C578F40BDC63 /* Pods-P5.js Viewer 0.03 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-P5.js Viewer 0.03"; path = Pods_P5_js_Viewer_0_03.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B77AEBC59CCAAEE0FD1D836DCAECF8 /* HttpRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpRequest.swift; path = Xcode/Sources/HttpRequest.swift; sourceTree = "<group>"; };
+		4560888EC7E3F933FD18A16AF2F08FAF /* String+File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+File.swift"; path = "Xcode/Sources/String+File.swift"; sourceTree = "<group>"; };
+		460E4532601B0606381BD157CCBDE830 /* Socket+File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Socket+File.swift"; path = "Xcode/Sources/Socket+File.swift"; sourceTree = "<group>"; };
+		4B6B8C698199F773500AEE76EF2EBBD2 /* HttpRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpRouter.swift; path = Xcode/Sources/HttpRouter.swift; sourceTree = "<group>"; };
+		502DD47189BF031F0179AEBA4B16C026 /* Pods-P5.js Viewer 0.03-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-P5.js Viewer 0.03-Info.plist"; sourceTree = "<group>"; };
+		61BB9238F5B5377D7DEE5349F3988122 /* Swifter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swifter-umbrella.h"; sourceTree = "<group>"; };
+		6CBA6D752960723B42BAF1D446727442 /* Swifter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swifter.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7377A0155A1A195916AF37B91130FD9F /* Swifter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Swifter.modulemap; sourceTree = "<group>"; };
+		8095640F80114C52EB1A93C4E55F9A22 /* Errno.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errno.swift; path = Xcode/Sources/Errno.swift; sourceTree = "<group>"; };
+		85023C3235203E280F487E422D75A318 /* Files.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Files.swift; path = Xcode/Sources/Files.swift; sourceTree = "<group>"; };
+		8666D8622246009D63B8DCD9C8AF61EC /* Swifter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swifter-prefix.pch"; sourceTree = "<group>"; };
+		870DC088D47079783C7C94ABC3969E99 /* Pods-P5.js Viewer 0.03-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-P5.js Viewer 0.03-acknowledgements.plist"; sourceTree = "<group>"; };
+		87F8AEB93E5A7FC79DACC132CA1340FC /* Pods-P5.js Viewer 0.03-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-P5.js Viewer 0.03-umbrella.h"; sourceTree = "<group>"; };
+		93E3669AB40EE4D274A4FC9F286E42CA /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Xcode/Sources/Socket.swift; sourceTree = "<group>"; };
+		95BA231237EFBF8212AA434BE9474B07 /* HttpParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpParser.swift; path = Xcode/Sources/HttpParser.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A575B9D1842C00084F1B274D58FA606C /* Socket+Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Socket+Server.swift"; path = "Xcode/Sources/Socket+Server.swift"; sourceTree = "<group>"; };
+		AB8AD1D391BE58996739D386C19D5CF9 /* Pods-P5.js Viewer 0.03.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-P5.js Viewer 0.03.modulemap"; sourceTree = "<group>"; };
+		AD369D8FBA318A4C4C673D3887CE1B14 /* Pods-P5.js Viewer 0.03-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-P5.js Viewer 0.03-dummy.m"; sourceTree = "<group>"; };
+		B0A832C2FBFFB99104EBC8AE08FE990D /* Scopes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scopes.swift; path = Xcode/Sources/Scopes.swift; sourceTree = "<group>"; };
+		B188418054C647A52CE53A72CD13AA01 /* Swifter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Swifter-Info.plist"; sourceTree = "<group>"; };
+		B644D38F1F85757ABF3F80E28BAD3C33 /* HttpServerIO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpServerIO.swift; path = Xcode/Sources/HttpServerIO.swift; sourceTree = "<group>"; };
+		BCB931B2FB53DCD1655351618882127B /* Process.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Process.swift; path = Xcode/Sources/Process.swift; sourceTree = "<group>"; };
+		BDAF88C49DED2E6DE37DBC74C8F26BE4 /* String+BASE64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+BASE64.swift"; path = "Xcode/Sources/String+BASE64.swift"; sourceTree = "<group>"; };
+		C8C4F431A1F4B8D40239FE5ACE6ED241 /* Pods-P5.js Viewer 0.03-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-P5.js Viewer 0.03-frameworks.sh"; sourceTree = "<group>"; };
+		D4CA946AACD2CFBA60A2F7CC418441AD /* WebSockets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSockets.swift; path = Xcode/Sources/WebSockets.swift; sourceTree = "<group>"; };
+		E46680F41AD4A2EB5C066FF1B77D02FF /* Swifter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swifter.debug.xcconfig; sourceTree = "<group>"; };
+		E7E98885A0FEF49E9EE8975449969BEB /* Swifter */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swifter; path = Swifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4AB08CC344FEECFCA17E8B720F18D82 /* DemoServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoServer.swift; path = Xcode/Sources/DemoServer.swift; sourceTree = "<group>"; };
+		F58242772C35B1A041464AD6E8D15D0F /* Pods-P5.js Viewer 0.03.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-P5.js Viewer 0.03.debug.xcconfig"; sourceTree = "<group>"; };
+		F6451A97E9AB012ABEED52DED558977F /* HttpServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpServer.swift; path = Xcode/Sources/HttpServer.swift; sourceTree = "<group>"; };
+		FF4EFA714A6675456D721C28442223D4 /* HttpResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpResponse.swift; path = Xcode/Sources/HttpResponse.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EEE1B7EEAF077664D21F6CF2820B576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC06B51F98101A4ABBCB811EAD8810A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7D40AFCF6989C42ECFA6A3F78704B41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195282D5E704A666759DD280C82B1719 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35A3025F9EC125DBD8B21909BF29BFF7 /* Swifter */ = {
+			isa = PBXGroup;
+			children = (
+				F4AB08CC344FEECFCA17E8B720F18D82 /* DemoServer.swift */,
+				8095640F80114C52EB1A93C4E55F9A22 /* Errno.swift */,
+				85023C3235203E280F487E422D75A318 /* Files.swift */,
+				95BA231237EFBF8212AA434BE9474B07 /* HttpParser.swift */,
+				42B77AEBC59CCAAEE0FD1D836DCAECF8 /* HttpRequest.swift */,
+				FF4EFA714A6675456D721C28442223D4 /* HttpResponse.swift */,
+				4B6B8C698199F773500AEE76EF2EBBD2 /* HttpRouter.swift */,
+				F6451A97E9AB012ABEED52DED558977F /* HttpServer.swift */,
+				B644D38F1F85757ABF3F80E28BAD3C33 /* HttpServerIO.swift */,
+				2A852EB416F3BBDB96A265743CA65F9C /* MimeTypes.swift */,
+				BCB931B2FB53DCD1655351618882127B /* Process.swift */,
+				B0A832C2FBFFB99104EBC8AE08FE990D /* Scopes.swift */,
+				93E3669AB40EE4D274A4FC9F286E42CA /* Socket.swift */,
+				460E4532601B0606381BD157CCBDE830 /* Socket+File.swift */,
+				A575B9D1842C00084F1B274D58FA606C /* Socket+Server.swift */,
+				BDAF88C49DED2E6DE37DBC74C8F26BE4 /* String+BASE64.swift */,
+				4560888EC7E3F933FD18A16AF2F08FAF /* String+File.swift */,
+				2007ABE4980A21BFFF0B7DBBD16867A3 /* String+Misc.swift */,
+				1144581725D5439CC299FBA9F533AA71 /* String+SHA1.swift */,
+				D4CA946AACD2CFBA60A2F7CC418441AD /* WebSockets.swift */,
+				9599242A471A7BA42EB356072DEFF6E3 /* Support Files */,
+			);
+			name = Swifter;
+			path = Swifter;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9599242A471A7BA42EB356072DEFF6E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7377A0155A1A195916AF37B91130FD9F /* Swifter.modulemap */,
+				40882AC60EC5F8768EF1BEFAEA3C8474 /* Swifter-dummy.m */,
+				B188418054C647A52CE53A72CD13AA01 /* Swifter-Info.plist */,
+				8666D8622246009D63B8DCD9C8AF61EC /* Swifter-prefix.pch */,
+				61BB9238F5B5377D7DEE5349F3988122 /* Swifter-umbrella.h */,
+				E46680F41AD4A2EB5C066FF1B77D02FF /* Swifter.debug.xcconfig */,
+				6CBA6D752960723B42BAF1D446727442 /* Swifter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Swifter";
+			sourceTree = "<group>";
+		};
+		AE1B9B60A527C0D71A8839AF32851A2F /* Pods-P5.js Viewer 0.03 */ = {
+			isa = PBXGroup;
+			children = (
+				AB8AD1D391BE58996739D386C19D5CF9 /* Pods-P5.js Viewer 0.03.modulemap */,
+				3CC66117C82648AF15A2BA2C057C9413 /* Pods-P5.js Viewer 0.03-acknowledgements.markdown */,
+				870DC088D47079783C7C94ABC3969E99 /* Pods-P5.js Viewer 0.03-acknowledgements.plist */,
+				AD369D8FBA318A4C4C673D3887CE1B14 /* Pods-P5.js Viewer 0.03-dummy.m */,
+				C8C4F431A1F4B8D40239FE5ACE6ED241 /* Pods-P5.js Viewer 0.03-frameworks.sh */,
+				502DD47189BF031F0179AEBA4B16C026 /* Pods-P5.js Viewer 0.03-Info.plist */,
+				87F8AEB93E5A7FC79DACC132CA1340FC /* Pods-P5.js Viewer 0.03-umbrella.h */,
+				F58242772C35B1A041464AD6E8D15D0F /* Pods-P5.js Viewer 0.03.debug.xcconfig */,
+				35FBA7CC5D9E06C43C64FC557EAD4472 /* Pods-P5.js Viewer 0.03.release.xcconfig */,
+			);
+			name = "Pods-P5.js Viewer 0.03";
+			path = "Target Support Files/Pods-P5.js Viewer 0.03";
+			sourceTree = "<group>";
+		};
+		B068D7953FC49F0A18AB1F83C5EE18B4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE1B9B60A527C0D71A8839AF32851A2F /* Pods-P5.js Viewer 0.03 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C4741BDD831BFFF601A7E198A118D7CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				409F7888BD538FF0F474C578F40BDC63 /* Pods-P5.js Viewer 0.03 */,
+				E7E98885A0FEF49E9EE8975449969BEB /* Swifter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EBAB82139382F4D963601248B150A1B8 /* Pods */,
+				C4741BDD831BFFF601A7E198A118D7CF /* Products */,
+				B068D7953FC49F0A18AB1F83C5EE18B4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBAB82139382F4D963601248B150A1B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35A3025F9EC125DBD8B21909BF29BFF7 /* Swifter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C05D132A32FF93CAF01DF2A8AED7D5CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF5E345E9EAD09BEE6F866A038C6766 /* Pods-P5.js Viewer 0.03-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B13919DEA02EAC7816AB560608E0D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F774D05FB13ACDF7A2FD859BDF9EDAF /* Swifter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1449AFBF01EB3620EE79C587B279607C /* Pods-P5.js Viewer 0.03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B54228CE195738C80C07539F926839 /* Build configuration list for PBXNativeTarget "Pods-P5.js Viewer 0.03" */;
+			buildPhases = (
+				C05D132A32FF93CAF01DF2A8AED7D5CE /* Headers */,
+				C3B2E1B0FAB83E02867021CE51EF5D6E /* Sources */,
+				3EEE1B7EEAF077664D21F6CF2820B576 /* Frameworks */,
+				879BC7FBF2118F556E6C7095367121CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71AC34E9BCA1099C2427DDE27E76F3FB /* PBXTargetDependency */,
+			);
+			name = "Pods-P5.js Viewer 0.03";
+			productName = Pods_P5_js_Viewer_0_03;
+			productReference = 409F7888BD538FF0F474C578F40BDC63 /* Pods-P5.js Viewer 0.03 */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA65059E808391E31616CB3E015A6B24 /* Swifter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92CE685D69BAAD2EB1488C372A2643E /* Build configuration list for PBXNativeTarget "Swifter" */;
+			buildPhases = (
+				E2B13919DEA02EAC7816AB560608E0D7 /* Headers */,
+				6590D869F8FC036594B5D6A09038E751 /* Sources */,
+				A7D40AFCF6989C42ECFA6A3F78704B41 /* Frameworks */,
+				ADF645494F4BE4591753458B03AE0FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swifter;
+			productName = Swifter;
+			productReference = E7E98885A0FEF49E9EE8975449969BEB /* Swifter */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C4741BDD831BFFF601A7E198A118D7CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1449AFBF01EB3620EE79C587B279607C /* Pods-P5.js Viewer 0.03 */,
+				CA65059E808391E31616CB3E015A6B24 /* Swifter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		879BC7FBF2118F556E6C7095367121CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF645494F4BE4591753458B03AE0FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6590D869F8FC036594B5D6A09038E751 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86208836BC7379BB3467451B99D5DBC5 /* DemoServer.swift in Sources */,
+				61A2186525945138E6D4D8890BCD84CB /* Errno.swift in Sources */,
+				9FE71C867DFE9D1F0517E5F9DA2A0563 /* Files.swift in Sources */,
+				07117F862C579033FF3AA3988D2FE435 /* HttpParser.swift in Sources */,
+				76089BA68ABE01FD29162689C36F48E3 /* HttpRequest.swift in Sources */,
+				D6AF937D3F2E6CFB72718EAC28C07470 /* HttpResponse.swift in Sources */,
+				EFCBCBD1585B046538884B88351202C7 /* HttpRouter.swift in Sources */,
+				7A7C6F02DA2ED39099C5872418880014 /* HttpServer.swift in Sources */,
+				4D97DE67D65A452A3454F9B8E69B8938 /* HttpServerIO.swift in Sources */,
+				0CE01F02DC6B9B2B646C16F8EA1840E6 /* MimeTypes.swift in Sources */,
+				E08536F9E7944703D5E72FAEA617F9FC /* Process.swift in Sources */,
+				C8E0C73A9EC57AE2AA623786819AAE32 /* Scopes.swift in Sources */,
+				8608A2666CDEF4D9F6ABBBDC3E5715AE /* Socket.swift in Sources */,
+				F206DA5B70F0EDC563A06E330B1FBD32 /* Socket+File.swift in Sources */,
+				77227FE12688B63A0DC4E0DE7531D23E /* Socket+Server.swift in Sources */,
+				5FE93355C27BED698ABE35303ADB070E /* String+BASE64.swift in Sources */,
+				6B82962C222D743936649220DFF3992B /* String+File.swift in Sources */,
+				F9A30F9A5BCE22D6CB69957C8E68589D /* String+Misc.swift in Sources */,
+				6CF3A0803ECC057069BB12FA82ACF49E /* String+SHA1.swift in Sources */,
+				06EF2F927ABC1480EDFCE29F57302BF2 /* Swifter-dummy.m in Sources */,
+				45AF00A58D16A9BB670F1A48997496F8 /* WebSockets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B2E1B0FAB83E02867021CE51EF5D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D3F7917DB58D01BAD971DA6AA7FA7F /* Pods-P5.js Viewer 0.03-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71AC34E9BCA1099C2427DDE27E76F3FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swifter;
+			target = CA65059E808391E31616CB3E015A6B24 /* Swifter */;
+			targetProxy = AF18D6B9FE7649F894C82C21108E1EB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032504F201C69275441D32C68CCD1F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2FFD739CA095A0266FD9BF839FFBDD8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35FBA7CC5D9E06C43C64FC557EAD4472 /* Pods-P5.js Viewer 0.03.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-P5.js Viewer 0.03/Pods-P5.js Viewer 0.03-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-P5.js Viewer 0.03/Pods-P5.js Viewer 0.03.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6348115F54AFB9601D6B904146BEA9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46680F41AD4A2EB5C066FF1B77D02FF /* Swifter.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swifter/Swifter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swifter/Swifter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
+				PRODUCT_MODULE_NAME = Swifter;
+				PRODUCT_NAME = Swifter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96C249CB27A8395E5773891551C429E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58242772C35B1A041464AD6E8D15D0F /* Pods-P5.js Viewer 0.03.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-P5.js Viewer 0.03/Pods-P5.js Viewer 0.03-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-P5.js Viewer 0.03/Pods-P5.js Viewer 0.03.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B046366C30F77270C408704908CCA280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CBA6D752960723B42BAF1D446727442 /* Swifter.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swifter/Swifter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swifter/Swifter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
+				PRODUCT_MODULE_NAME = Swifter;
+				PRODUCT_NAME = Swifter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */,
+				032504F201C69275441D32C68CCD1F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B54228CE195738C80C07539F926839 /* Build configuration list for PBXNativeTarget "Pods-P5.js Viewer 0.03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96C249CB27A8395E5773891551C429E9 /* Debug */,
+				2FFD739CA095A0266FD9BF839FFBDD8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92CE685D69BAAD2EB1488C372A2643E /* Build configuration list for PBXNativeTarget "Swifter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6348115F54AFB9601D6B904146BEA9DC /* Debug */,
+				B046366C30F77270C408704908CCA280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

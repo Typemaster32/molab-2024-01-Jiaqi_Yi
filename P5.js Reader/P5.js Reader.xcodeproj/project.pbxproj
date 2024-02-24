@@ -15,6 +15,16 @@
 		B20AEB9B2B7827A10027BB94 /* P5_js_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEB9A2B7827A10027BB94 /* P5_js_ReaderUITests.swift */; };
 		B20AEB9D2B7827A10027BB94 /* P5_js_ReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEB9C2B7827A10027BB94 /* P5_js_ReaderUITestsLaunchTests.swift */; };
 		B20AEBAC2B782C0B0027BB94 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20AEBAB2B782C0B0027BB94 /* WebView.swift */; };
+		B20AEBF42B7ECBED0027BB94 /* sketch1995985.zip in Resources */ = {isa = PBXBuildFile; fileRef = B20AEBEA2B7ECBEC0027BB94 /* sketch1995985.zip */; };
+		B20AEBF52B7ECBED0027BB94 /* sketch1981360.zip in Resources */ = {isa = PBXBuildFile; fileRef = B20AEBEB2B7ECBEC0027BB94 /* sketch1981360.zip */; };
+		B20AEBF62B7ECBED0027BB94 /* Arrival_6.9_2024_02_15_02_55_33.zip in Resources */ = {isa = PBXBuildFile; fileRef = B20AEBEC2B7ECBEC0027BB94 /* Arrival_6.9_2024_02_15_02_55_33.zip */; };
+		B20AEBF72B7ECBED0027BB94 /* Soft_Spring_-_Coding_Challenge_160_Spring_Forces_2024_02_15_22_31_51.zip in Resources */ = {isa = PBXBuildFile; fileRef = B20AEBED2B7ECBEC0027BB94 /* Soft_Spring_-_Coding_Challenge_160_Spring_Forces_2024_02_15_22_31_51.zip */; };
+		B20AEBF82B7ECBED0027BB94 /* Treasure_yard_2024_02_14_21_54_27.zip in Resources */ = {isa = PBXBuildFile; fileRef = B20AEBEE2B7ECBEC0027BB94 /* Treasure_yard_2024_02_14_21_54_27.zip */; };
+		B20AEBF92B7ECBED0027BB94 /* sketch2065167.zip in Resources */ = {isa = PBXBuildFile; fileRef = B20AEBEF2B7ECBEC0027BB94 /* sketch2065167.zip */; };
+		B20AEBFA2B7ECBED0027BB94 /* sketch2037460.zip in Resources */ = {isa = PBXBuildFile; fileRef = B20AEBF02B7ECBEC0027BB94 /* sketch2037460.zip */; };
+		B20AEBFB2B7ECBED0027BB94 /* sketch2121872.zip in Resources */ = {isa = PBXBuildFile; fileRef = B20AEBF12B7ECBEC0027BB94 /* sketch2121872.zip */; };
+		B20AEBFC2B7ECBED0027BB94 /* sketch2015945.zip in Resources */ = {isa = PBXBuildFile; fileRef = B20AEBF22B7ECBED0027BB94 /* sketch2015945.zip */; };
+		B20AEBFD2B7ECBED0027BB94 /* sketch2064125.zip in Resources */ = {isa = PBXBuildFile; fileRef = B20AEBF32B7ECBED0027BB94 /* sketch2064125.zip */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +56,16 @@
 		B20AEB9A2B7827A10027BB94 /* P5_js_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5_js_ReaderUITests.swift; sourceTree = "<group>"; };
 		B20AEB9C2B7827A10027BB94 /* P5_js_ReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P5_js_ReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B20AEBAB2B782C0B0027BB94 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		B20AEBEA2B7ECBEC0027BB94 /* sketch1995985.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = sketch1995985.zip; sourceTree = "<group>"; };
+		B20AEBEB2B7ECBEC0027BB94 /* sketch1981360.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = sketch1981360.zip; sourceTree = "<group>"; };
+		B20AEBEC2B7ECBEC0027BB94 /* Arrival_6.9_2024_02_15_02_55_33.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Arrival_6.9_2024_02_15_02_55_33.zip; sourceTree = "<group>"; };
+		B20AEBED2B7ECBEC0027BB94 /* Soft_Spring_-_Coding_Challenge_160_Spring_Forces_2024_02_15_22_31_51.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Soft_Spring_-_Coding_Challenge_160_Spring_Forces_2024_02_15_22_31_51.zip"; sourceTree = "<group>"; };
+		B20AEBEE2B7ECBEC0027BB94 /* Treasure_yard_2024_02_14_21_54_27.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Treasure_yard_2024_02_14_21_54_27.zip; sourceTree = "<group>"; };
+		B20AEBEF2B7ECBEC0027BB94 /* sketch2065167.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = sketch2065167.zip; sourceTree = "<group>"; };
+		B20AEBF02B7ECBEC0027BB94 /* sketch2037460.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = sketch2037460.zip; sourceTree = "<group>"; };
+		B20AEBF12B7ECBEC0027BB94 /* sketch2121872.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = sketch2121872.zip; sourceTree = "<group>"; };
+		B20AEBF22B7ECBED0027BB94 /* sketch2015945.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = sketch2015945.zip; sourceTree = "<group>"; };
+		B20AEBF32B7ECBED0027BB94 /* sketch2064125.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = sketch2064125.zip; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +116,7 @@
 		B20AEB7E2B78279F0027BB94 /* P5.js Reader */ = {
 			isa = PBXGroup;
 			children = (
+				B20AEC162B7ECC2A0027BB94 /* sketches */,
 				B20AEB7F2B78279F0027BB94 /* P5_js_ReaderApp.swift */,
 				B20AEB812B78279F0027BB94 /* ContentView.swift */,
 				B20AEBAB2B782C0B0027BB94 /* WebView.swift */,
@@ -128,6 +149,23 @@
 				B20AEB9C2B7827A10027BB94 /* P5_js_ReaderUITestsLaunchTests.swift */,
 			);
 			path = "P5.js ReaderUITests";
+			sourceTree = "<group>";
+		};
+		B20AEC162B7ECC2A0027BB94 /* sketches */ = {
+			isa = PBXGroup;
+			children = (
+				B20AEBEC2B7ECBEC0027BB94 /* Arrival_6.9_2024_02_15_02_55_33.zip */,
+				B20AEBEB2B7ECBEC0027BB94 /* sketch1981360.zip */,
+				B20AEBEA2B7ECBEC0027BB94 /* sketch1995985.zip */,
+				B20AEBF22B7ECBED0027BB94 /* sketch2015945.zip */,
+				B20AEBF02B7ECBEC0027BB94 /* sketch2037460.zip */,
+				B20AEBF32B7ECBED0027BB94 /* sketch2064125.zip */,
+				B20AEBEF2B7ECBEC0027BB94 /* sketch2065167.zip */,
+				B20AEBF12B7ECBEC0027BB94 /* sketch2121872.zip */,
+				B20AEBED2B7ECBEC0027BB94 /* Soft_Spring_-_Coding_Challenge_160_Spring_Forces_2024_02_15_22_31_51.zip */,
+				B20AEBEE2B7ECBEC0027BB94 /* Treasure_yard_2024_02_14_21_54_27.zip */,
+			);
+			path = sketches;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +272,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B20AEBF52B7ECBED0027BB94 /* sketch1981360.zip in Resources */,
 				B20AEB872B7827A10027BB94 /* Preview Assets.xcassets in Resources */,
+				B20AEBF82B7ECBED0027BB94 /* Treasure_yard_2024_02_14_21_54_27.zip in Resources */,
+				B20AEBFC2B7ECBED0027BB94 /* sketch2015945.zip in Resources */,
+				B20AEBF62B7ECBED0027BB94 /* Arrival_6.9_2024_02_15_02_55_33.zip in Resources */,
+				B20AEBF72B7ECBED0027BB94 /* Soft_Spring_-_Coding_Challenge_160_Spring_Forces_2024_02_15_22_31_51.zip in Resources */,
+				B20AEBFB2B7ECBED0027BB94 /* sketch2121872.zip in Resources */,
 				B20AEB842B7827A10027BB94 /* Assets.xcassets in Resources */,
+				B20AEBFD2B7ECBED0027BB94 /* sketch2064125.zip in Resources */,
+				B20AEBFA2B7ECBED0027BB94 /* sketch2037460.zip in Resources */,
+				B20AEBF42B7ECBED0027BB94 /* sketch1995985.zip in Resources */,
+				B20AEBF92B7ECBED0027BB94 /* sketch2065167.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

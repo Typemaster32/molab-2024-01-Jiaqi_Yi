@@ -33,26 +33,34 @@ struct ContentView: View {
     //private means it could only be changed within this scope.
     
     var body: some View {
-        NavigationView {
-            List(contentManager.namesOfFiles, id: \.name) { file in
-                // \.name means Key Path. Here it serves as the unique identifier.
-                // This iterates over files, using file as the identifier for the current element.
-                // Assuming file.name contains the filename without path
-                if let fileURL = Bundle.main.url(forResource: file.name, withExtension: nil, subdirectory: "Sketches") {
-                    NavigationLink(destination: WebContentView(sourceURL: fileURL, title: file.name)) {
-                        Text(adjustedName(from: file.name))
-                            .lineLimit(1)
+        VStack{
+            NavigationView {
+                List(contentManager.namesOfFiles, id: \.name) { file in
+                    // \.name means Key Path. Here it serves as the unique identifier.
+                    // This iterates over files, using file as the identifier for the current element.
+                    // Assuming file.name contains the filename without path
+                    if let fileURL = Bundle.main.url(forResource: file.name, withExtension: nil, subdirectory: "Sketches") {
+                        NavigationLink(destination: WebContentView(sourceURL: fileURL, title: file.name)) {
+                            Text(adjustedName(from: file.name))
+                                .lineLimit(1)
+                        }
+                        //withExtension: "zip" causes "invalid file"
+                    } else {
+                        // Fallback content in case the URL couldn't be constructed
+                        Text("Invalid file: \(file.name)")
                     }
-                    //withExtension: "zip" causes "invalid file"
-                } else {
-                    // Fallback content in case the URL couldn't be constructed
-                    Text("Invalid file: \(file.name)")
+                }
+                .navigationTitle("P5.js Reader").onAppear {
+                    contentManager.loadContent()
+                    //                print("Content Manager Files: \(contentManager.namesOfFiles)")
                 }
             }
-            .navigationTitle("P5.js Reader").onAppear {
-                contentManager.loadContent()
-//                print("Content Manager Files: \(contentManager.namesOfFiles)")
-            }
+//            Button("Take Screenshot") {
+//                let screenshot = self.snapshot()
+//                
+//                // Save the screenshot to the Photos album
+//                UIImageWriteToSavedPhotosAlbum(screenshot, nil, nil, nil)
+//            }
         }
     }
 }
@@ -105,9 +113,19 @@ func adjustedName(from name: String) -> String {
 }
 
 
-
-
-
-#Preview {
-    ContentView()
+extension View {
+    func snapshot() -> UIImage {
+        let controller = UIHostingController(rootView: self)
+        let view = controller.view
+        
+        let targetSize = controller.view.intrinsicContentSize
+        view?.bounds = CGRect(origin: .zero, size: targetSize)
+        view?.backgroundColor = .clear
+        
+        let renderer = UIGraphicsImageRenderer(size: targetSize)
+        
+        return renderer.image { _ in
+            view?.drawHierarchy(in: controller.view.bounds, afterScreenUpdates: true)
+        }
+    }
 }

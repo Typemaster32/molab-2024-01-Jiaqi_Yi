@@ -7,16 +7,18 @@ struct WebContentView: View {
     var title: String
     @State private var isPresentingFullScreenView = false
     @State private var unzippedContentURL: URL? = nil
+    @State private var webViewSnapshotter: WebViewSnapshotter?
+
     
     var body: some View {
         GeometryReader { geometry in
             VStack {
-                Text(title).font(.headline).padding()
+                Text(title).font(.headline)
                 Text("Author: Unknown").font(.subheadline)
                 
                 if let unzippedURL = unzippedContentURL {
                     WebView(url: unzippedURL)
-                        .frame(width: geometry.size.width * 0.95, height: geometry.size.width * 0.95 * (4 / 3))
+                        .frame(width: geometry.size.width * 0.95, height: geometry.size.width * 0.95 * (3 / 3))
                 } else {
                     Text("Loading...")
                         .onAppear {
@@ -34,9 +36,25 @@ struct WebContentView: View {
                 .fullScreenCover(isPresented: $isPresentingFullScreenView) {
                     if let unzippedURL = unzippedContentURL {
                         FullScreenWebView(sourceURL: unzippedURL)
+                    }else{Text("Unzipping Failed")}
+                };
+                //Button1: Open Full Screen
+
+                Button("Save Image") {
+                    if let unzippedURL = unzippedContentURL {
+                        webViewSnapshotter = WebViewSnapshotter(url: unzippedURL) { image in
+                            if let image = image {
+                                print("Snapshot taken successfully")
+                                print(unzippedURL)
+                                ImageSaver.shared.saveImage(image)
+                                self.webViewSnapshotter = nil // Clear the reference once done
+                            } else {
+                                print("Failed to take snapshot")
+                            }
+                        }
                     }
-                }
-                
+                }.foregroundColor(.blue)
+                //Button2: Save Image
                 Spacer()
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -45,6 +63,21 @@ struct WebContentView: View {
     }
 }
 
+
+
+
+//                Button("Save Image"){
+//                    if let unzippedURL = unzippedContentURL {
+//                        _ = WebViewSnapshotter(url: unzippedURL) { image in
+//                            if image != nil {
+//                                // Process image, e.g., save to disk
+//                                print("Snapshot taken successfully")
+//                            } else {
+//                                print("Failed to take snapshot")
+//                            }
+//                        }
+//                    }
+//                }.foregroundColor(.blue)
 
 //struct WebContentView: View {
 //    var sourceURL: URL
